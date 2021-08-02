@@ -1,0 +1,1368 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.10.16)  16 OCT 2020 08:40
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**%-------------------------
+
+*% Resume in Latex
+
+*% Author : Jake Gutierrez
+
+*% Based off of: https://github.com/sb2nov/resume
+
+*% License : MIT
+
+*%------------------------
+
+*
+(/tmp/tmp5z_49sn7/
+LaTeX2e <2017-04-15>
+Babel <3.18> and hyphenation patterns for 3 language(s) loaded.
+)
+(Please type a command or say `\end')
+*\documentclass[letterpaper,11pt]{article}
+
+*
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size11.clo
+File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(Please type a command or say `\end')
+*\usepackage{latexsym}
+
+*\usepackage[empty]{fullpage}
+(/usr/share/texlive/texmf-dist/tex/latex/base/latexsym.sty
+Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
+\symlasy=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
+(Font)                  U/lasy/m/n --> U/lasy/b/n on input line 52.
+)
+*\usepackage{titlesec}
+(/usr/share/texlive/texmf-dist/tex/latex/preprint/fullpage.sty
+Package: fullpage 1999/02/23 1.1 (PWD)
+\FP@margin=\skip43
+)
+*\usepackage{marvosym}
+(/usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
+\ttl@box=\box26
+\beforetitleunit=\skip44
+\aftertitleunit=\skip45
+\ttl@plus=\dimen103
+\ttl@minus=\dimen104
+\ttl@toksa=\toks14
+\titlewidth=\dimen105
+\titlewidthlast=\dimen106
+\titlewidthfirst=\dimen107
+)
+*\usepackage[usenames,dvipsnames]{color}
+(/usr/share/texlive/texmf-dist/tex/latex/marvosym/marvosym.sty
+Package: marvosym 2011/07/20 v2.2 Martin Vogel's Symbols font definitions
+)
+*\usepackage{verbatim}
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 147.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/dvipsnam.def
+File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
+))
+*\usepackage{enumitem}
+(/usr/share/texlive/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks15
+\verbatim@line=\toks16
+\verbatim@in@stream=\read1
+)
+*\usepackage[hidelinks]{hyperref}
+(/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2011/09/28 v3.5.2 Customized lists
+\enitkv@toks@=\toks17
+\labelindent=\skip46
+\enit@outerparindent=\dimen108
+\enit@toks=\toks18
+\enit@inbox=\box27
+\enitdp@description=\count87
+)
+*\usepackage{fancyhdr}
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2018/02/06 v6.86b Hypertext links for LaTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+Package: pdftexcmds 2018/01/21 v0.26 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
+)
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks19
+)
+(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+)
+\@linkdim=\dimen109
+\Hy@linkcounter=\count88
+\Hy@pagecounter=\count89
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2018/02/06 v6.86b Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count90
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Hyper figures OFF on input line 4509.
+Package hyperref Info: Link nesting OFF on input line 4514.
+Package hyperref Info: Hyper index ON on input line 4517.
+Package hyperref Info: Plain pages OFF on input line 4524.
+Package hyperref Info: Backreferencing OFF on input line 4529.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4762.
+\c@Hy@tempcnt=\count91
+
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5115.
+\XeTeXLinkMargin=\dimen110
+\Fld@menulength=\count92
+\Field@Width=\dimen111
+\Fld@charsize=\dimen112
+Package hyperref Info: Hyper figures OFF on input line 6369.
+Package hyperref Info: Link nesting OFF on input line 6374.
+Package hyperref Info: Hyper index ON on input line 6377.
+Package hyperref Info: backreferencing OFF on input line 6384.
+Package hyperref Info: Link coloring OFF on input line 6389.
+Package hyperref Info: Link coloring with OCG OFF on input line 6394.
+Package hyperref Info: PDF/A mode OFF on input line 6399.
+LaTeX Info: Redefining \ref on input line 6439.
+LaTeX Info: Redefining \pageref on input line 6443.
+\Hy@abspage=\count93
+\c@Item=\count94
+\c@Hfootnote=\count95
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2018/02/06 v6.86b Hyperref driver for pdfTeX
+\Fld@listcount=\count96
+\c@bookmark@seq@number=\count97
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip47
+)
+*\usepackage[english]{babel}
+(/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2017/06/30 v3.9a Extensive control of page headers and footer
+s
+\f@nch@headwidth=\skip48
+\f@nch@O@elh=\skip49
+\f@nch@O@erh=\skip50
+\f@nch@O@olh=\skip51
+\f@nch@O@orh=\skip52
+\f@nch@O@elf=\skip53
+\f@nch@O@erf=\skip54
+\f@nch@O@olf=\skip55
+\f@nch@O@orf=\skip56
+)
+*\usepackage{tabularx}
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2018/02/14 3.18 The Babel package
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/switch.def
+File: switch.def 2018/02/14 3.18 Babel switching mechanism
+)
+(/usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2017/06/06 v3.3r English support from the babel system
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2018/02/14 3.18 Babel common definitions
+\babel@savecnt=\count98
+\U@D=\dimen113
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@dirlevel=\count99
+)
+\l@british = a dialect from \language\l@english 
+\l@UKenglish = a dialect from \language\l@english 
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
+))
+*\input{glyphtounicode}
+(/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2016/02/03 v2.11 `tabularx' package (DPC)
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
+\col@sep=\dimen114
+\extrarowheight=\dimen115
+\NC@list=\toks20
+\extratabsurround=\skip57
+\backup@length=\skip58
+)
+\TX@col@width=\dimen116
+\TX@old@table=\dimen117
+\TX@old@col=\dimen118
+\TX@target=\dimen119
+\TX@delta=\dimen120
+\TX@cols=\count100
+\TX@ftn=\toks21
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pdftex/glyphtounicode.tex)
+*\usepackage[document]{ragged2e}
+
+*
+(/usr/share/texlive/texmf-dist/tex/latex/ms/ragged2e.sty
+Package: ragged2e 2009/05/21 v2.1 ragged2e Package (MS)
+
+
+LaTeX Warning: Command \@arrayparboxrestore  has changed.
+               Check if current package is valid.
+
+(/usr/share/texlive/texmf-dist/tex/latex/ms/everysel.sty
+Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/footmisc/footmisc.sty
+Package: footmisc 2011/06/06 v5.5b a miscellany of footnote facilities
+\FN@temptoken=\toks22
+\footnotemargin=\dimen121
+\c@pp@next@reset=\count101
+Package footmisc Info: Declaring symbol style bringhurst on input line 855.
+Package footmisc Info: Declaring symbol style chicago on input line 863.
+Package footmisc Info: Declaring symbol style wiley on input line 872.
+Package footmisc Info: Declaring symbol style lamport-robust on input line 883.
+
+Package footmisc Info: Declaring symbol style lamport* on input line 903.
+Package footmisc Info: Declaring symbol style lamport*-robust on input line 924
+.
+)
+\CenteringLeftskip=\skip59
+\RaggedLeftLeftskip=\skip60
+\RaggedRightLeftskip=\skip61
+\CenteringRightskip=\skip62
+\RaggedLeftRightskip=\skip63
+\RaggedRightRightskip=\skip64
+\CenteringParfillskip=\skip65
+\RaggedLeftParfillskip=\skip66
+\RaggedRightParfillskip=\skip67
+\JustifyingParfillskip=\skip68
+\CenteringParindent=\skip69
+\RaggedLeftParindent=\skip70
+\RaggedRightParindent=\skip71
+\JustifyingParindent=\skip72
+)
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*%----------FONT OPTIONS----------
+
+*% sans-serif
+
+*% \usepackage[sfdefault]{FiraSans}
+
+*% \usepackage[sfdefault]{roboto}
+
+*% \usepackage[sfdefault]{noto-sans}
+
+*% \usepackage[default]{sourcesanspro}
+
+*
+(Please type a command or say `\end')
+*% serif
+
+*% \usepackage{CormorantGaramond}
+
+*% \usepackage{charter}
+
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*\pagestyle{fancy}
+
+*\fancyhf{} % clear all header and footer fields
+
+*\fancyfoot{}
+
+*\renewcommand{\headrulewidth}{0pt}
+
+*\renewcommand{\footrulewidth}{0pt}
+
+*
+(Please type a command or say `\end')
+*% Adjust margins
+
+*\addtolength{\oddsidemargin}{-0.5in}
+
+*\addtolength{\evensidemargin}{-0.5in}
+
+*\addtolength{\textwidth}{1in}
+
+*\addtolength{\topmargin}{-.5in}
+
+*\addtolength{\textheight}{1.0in}
+
+*
+(Please type a command or say `\end')
+*\urlstyle{same}
+
+*
+(Please type a command or say `\end')
+*\raggedbottom
+
+*\raggedright
+
+*\setlength{\tabcolsep}{0in}
+
+*
+(Please type a command or say `\end')
+*% Sections formatting
+
+*\titleformat{\section}{
+
+*  \vspace{-4pt}\scshape\raggedright\large
+
+*}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+*
+(Please type a command or say `\end')
+*% Ensure that generate pdf is machine readable/ATS parsable
+
+*\pdfgentounicode=1
+
+*
+(Please type a command or say `\end')
+*%-------------------------
+
+*% Custom commands
+
+*\newcommand{\resumeItem}[1]{
+
+*  \item\small{
+
+*    {#1 \vspace{-2pt}}
+
+*  }
+
+*}
+
+*
+(Please type a command or say `\end')
+*\newcommand{\resumeSubheading}[5]{
+
+*  \vspace{-2pt}\item
+
+*    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+
+*      \textbf{#1} & #2 \\
+
+*      \textit{\small#3} & \textit{\small #4} \\
+
+*      \textit{\small #5}
+
+*    \end{tabular*}\vspace{-7pt}
+
+*}
+
+*\newcommand{\resumeSubheadingW}[4]{
+
+*  \vspace{-2pt}\item
+
+*    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+
+*      \textbf{#1} & #2 \\
+
+*      \textit{\small#3} & \textit{\small #4}
+
+*    \end{tabular*}\vspace{-7pt}
+
+*}
+
+*
+(Please type a command or say `\end')
+*\newcommand{\resumeSubSubheading}[2]{
+
+*    \item
+
+*    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+
+*      \textit{\small#1} & \textit{\small #2} \\
+
+*    \end{tabular*}\vspace{-7pt}
+
+*}
+
+*
+(Please type a command or say `\end')
+*\newcommand{\resumeProjectHeading}[2]{
+
+*    \item
+
+*    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+
+*      \small#1 & \textit{#2} \\
+
+*    \end{tabular*}\vspace{-7pt}
+
+*}
+
+*
+(Please type a command or say `\end')
+*\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+*
+(Please type a command or say `\end')
+*\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+*
+(Please type a command or say `\end')
+*\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in,righ
+tmargin=1.8in, leftmargin=0.15in, label={}]}
+
+*\newcommand{\resumeSubHeadingListStartIT}{\begin{itemize}[leftmargin=0.15in, l
+eftmargin=0.15in, label={}]}
+
+*\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+
+*\newcommand{\resumeItemListStart}{\begin{itemize}\justifying}
+
+*\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+*
+(Please type a command or say `\end')
+*%-------------------------------------------
+
+*%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*\begin{document}
+No file file.aux.
+\openout1 = `file.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 0.
+LaTeX Font Info:    ... okay on input line 0.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 0.
+LaTeX Font Info:    ... okay on input line 0.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 0.
+LaTeX Font Info:    ... okay on input line 0.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 0.
+LaTeX Font Info:    ... okay on input line 0.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 0.
+LaTeX Font Info:    ... okay on input line 0.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 0.
+LaTeX Font Info:    ... okay on input line 0.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 0.
+LaTeX Font Info:    ... okay on input line 0.
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count102
+\scratchdimen=\dimen122
+\scratchbox=\box28
+\nofMPsegments=\count103
+\nofMParguments=\count104
+\everyMPshowfont=\toks23
+\MPscratchCnt=\count105
+\MPscratchDim=\dimen123
+\MPnumerator=\count106
+\makeMPintoPDFobject=\count107
+\everyMPtoPDFconversion=\toks24
+)
+\AtBeginShipoutBox=\box29
+Package hyperref Info: Link coloring OFF on input line 0.
+ (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count108
+)
+LaTeX Info: Redefining \ref on input line 0.
+LaTeX Info: Redefining \pageref on input line 0.
+LaTeX Info: Redefining \nameref on input line 0.
+\@outlinefile=\write3
+\openout3 = `file.out'.
+
+Package ragged2e Info: ABD: executing \RaggedRight on input line 0.
+
+ABD: EverySelectfont initializing macros
+LaTeX Info: Redefining \selectfont on input line 0.
+
+*
+(Please type a command or say `\end')
+*%----------HEADING----------
+
+*% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+
+*%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \
+href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+
+*%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1
+-123-456-7890 \\
+
+*% \end{tabular*}
+
+*
+(Please type a command or say `\end')
+*\begin{center}
+
+*    \textbf{\huge \scshape Alessandro Calmanovici} \\ \vspace{2pt}
+
+LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
+(Font)              using `OT1/cmr/bx/n' instead on input line 0.
+
+
+*     Italian $|$ 03.05.1994 $|$ Permit-B
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 0.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 0.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 0.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 0.
+(/usr/share/texlive/texmf-dist/tex/latex/base/ulasy.fd
+File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
+)
+*\end{center}
+
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*%-----------EDUCATION-----------
+
+*\section{Education}
+
+*  \resumeSubHeadingListStart
+
+*    \resumeSubheadingW
+
+*      {ETH Zurich}{ }
+
+*      {Master in Neural Systems and Computation, Specialization in Data Scienc
+e, 5.3/6}{01.02.2017Â -Â 18.12.2019}
+Missing character: There is no Â in font cmti10!
+Missing character: There is no   in font cmti10!
+Missing character: There is no Â in font cmti10!
+Missing character: There is no   in font cmti10!
+
+*    \resumeSubheadingW
+
+*      {University of Pisa}{ }
+
+*      {Bachelor in Computer Engineering, Specialization in Data Science, 6/6}{
+01.09.2013Â -Â 01.11.2016}
+
+Overfull \hbox (124.66617pt too wide) detected at line 0
+[][] 
+ []
+
+Missing character: There is no Â in font cmti10!
+Missing character: There is no   in font cmti10!
+Missing character: There is no Â in font cmti10!
+Missing character: There is no   in font cmti10!
+
+*     \resumeSubheadingW
+
+*      {Liceo Scientifico Michelangelo, Cagliari}{ }
+
+*      {Gymnasium in Scientific Italian school program, Specialization in IT, 6
+/6}{01.09.2008Â -Â 01.07.2013}
+
+Overfull \hbox (124.66617pt too wide) detected at line 0
+[][] 
+ []
+
+Missing character: There is no Â in font cmti10!
+Missing character: There is no   in font cmti10!
+Missing character: There is no Â in font cmti10!
+Missing character: There is no   in font cmti10!
+
+*  \resumeSubHeadingListEnd
+
+Overfull \hbox (124.66617pt too wide) detected at line 0
+[][]  
+ []
+
+
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*%-----------EXPERIENCE-----------
+
+*\section{Experience}
+
+*  \resumeSubHeadingListStart
+
+*    \resumeSubheadingW
+
+*      {Data Scientist and Digital Supply Chain Agent}{Part-time position}
+
+*      {ETH Juniors, contractor for Takeda Pharmaceuticals till 07/2020}{07.05.
+2018Â -}{}
+Missing character: There is no Â in font cmti10!
+Missing character: There is no   in font cmti10!
+
+*      \resumeItemListStart
+
+Overfull \hbox (124.66617pt too wide) detected at line 0
+[][]  
+ []
+
+
+*        \resumeItem{Data Scientist with managerial responsibilities. Developed
+ strategy for data science projects and team expansion. Performed EDA on top of
+ production and performance data. Built machine learning models and neural netw
+orks to predict yields, classify batches, optimize KPIs, perform root cause ana
+lysis, forecast sales demand, identify erroneous transactions. Used black-box e
+xplanation methods to interpret and present modeling results to key stakeholder
+s and SMEs. Reference person in Zurich for PowerBI/Qlik dashboard development a
+nd deployment.}
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 0.
+
+*      \resumeItemListEnd
+
+*
+(Please type a command or say `\end')
+*% -----------Multiple Positions Heading-----------
+
+*%    \resumeSubSubheading
+
+*%     {Software Engineer I}{Oct 2014 - Sep 2016}
+
+*%     \resumeItemListStart
+
+*%        \resumeItem{Apache Beam}
+
+*%          {Apache Beam is a unified model for defining both batch and streami
+ng data-parallel processing pipelines}
+
+*%     \resumeItemListEnd
+
+*%    \resumeSubHeadingListEnd
+
+*%-------------------------------------------
+
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*  \resumeSubHeadingListEnd
+
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*%-----------PROJECTS-----------
+
+*\section{Projects}
+
+*    \resumeSubHeadingListStart
+
+*      \resumeProjectHeading
+
+*          {\textbf{Neural rap lyrics generation with rhyme density biased samp
+ling}}{Master Thesis}
+
+*          \resumeItemListStart
+
+Overfull \hbox (124.66617pt too wide) detected at line 0
+[][]  
+ []
+
+
+*            \resumeItem{Collaboration with Musixmatch and their Machine Learni
+ng team based in Bologna, Italy. Fine-tuned the GPT2 language model network rel
+eased by OpenAI on a rap lyrics dataset provided by Musixmatch. Proposed a nove
+l inference mode sampling strategy which biases next word probabilities to impr
+ove rhyme density on the generated lyrics. Medium article: https://blog.musixma
+tch.com/generating-rap-lyrics-with-ai-13fb8d33ab5e}
+
+*        \resumeItem{Grade: 5.5}
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 0.
+
+*          \resumeItemListEnd
+
+*      \resumeProjectHeading
+
+*          {\textbf{Summary refinement through Denoising}}{Project}
+
+*          \resumeItemListStart
+
+Overfull \hbox (124.66617pt too wide) detected at line 0
+[][]  
+ []
+
+
+*            \resumeItem{We propose a simple method for postprocessing the outp
+uts of a text summarization system in order to refine its overall quality. Our 
+approach is to train text-to-text rewriting models to correct information redun
+dancy errors that may arise during summarization. We train on synthetically gen
+erated noisy summaries, testing three different types of noise that introduce o
+ut-of-context information within each summary.}
+
+*        \resumeItem{Grade: 6}
+
+*          \resumeItemListEnd
+
+*      \resumeProjectHeading
+
+*          {\textbf{Video-to-Video Translation using Cycle-Consistent Adversari
+al Networks}}{Project}
+
+*          \resumeItemListStart
+
+Overfull \hbox (124.66617pt too wide) detected at line 0
+[][]  
+ []
+
+
+*            \resumeItem{Worked for the Computer Vision and Geometry Group at E
+TH under Zhaopeng Cui's supervision. Used the latest cycle-consistent adversari
+al networks for video-to-video translation with focus on day to night conversio
+n. Added an extra flow network to a CycleGAN and improved baseline performance 
+both quantitatively and qualitatively: less flickering artifacts and better fra
+mes transitions. Tools: Python, PyTorch, OpenCV, FlowNet2}
+
+*        \resumeItem{Grade: 5.5}
+
+*          \resumeItemListEnd
+
+*      \resumeProjectHeading
+
+*          {\textbf{BURSDET: social network hate monitoring system}}{Bachelor T
+hesis}
+
+*          \resumeItemListStart
+
+Overfull \hbox (124.66617pt too wide) detected at line 0
+[][]  
+ []
+
+
+*            \resumeItem{Backend and Frontend development of a platform to moni
+tor hate bursts on data collected from social media using Time Series analysis 
+and the Kleinberg algorithm. Tools: R, Php, D3.js, Cubism.js.}
+
+*        \resumeItem{Grade: 6}
+
+*          \resumeItemListEnd
+
+*
+(Please type a command or say `\end')
+*    \resumeSubHeadingListEnd
+
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*%-----------WHAT I AM LOOKING FOR-----------
+
+*\section{What I am looking for}
+
+*    \resumeSubHeadingListStart
+
+*      \resumeProjectHeading
+
+*          {\textbf{Full-time position in Zurich area}}{\textit{\small Start da
+te 01.11.20}}
+
+*          \resumeItemListStart
+
+Overfull \hbox (124.66617pt too wide) detected at line 0
+[][]  
+ []
+
+
+*            \resumeItem{Areas of interest: Data Science - IT Consulting  - Med
+tec  - Computer Vision  - Artificial Intelligence }
+
+*        \resumeItem{Desired travel activity: Monthly}
+[1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+*        \resumeItem{Career goal: After spending two years as a data science co
+nsultant for Takeda Pharmaceuticals, my current career goal is to expand my exp
+ertise in the AI field and transit steadily towards a senior position. Ideally 
+in 5 to 10 years I would like to see myself as a data science team leader with 
+a strong technical and practical experience in data science applied to high imp
+act business problems..}
+
+*        \resumeItem{Position requirements: Since my main drivers are learning,
+ expanding my knowledge and adding a strong value to the organisation, I am loo
+king for a position which rewards proactivity and initiative. I feel stimulated
+ by long term challenges, complex projects and by sharing a common goal with my
+ coworkers.}
+
+*          \resumeItemListEnd
+
+*    \resumeSubHeadingListEnd
+
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*%
+
+*%-----------EXTRACURRICULARS -----------
+
+*\section{Extracurriculars}
+
+*    \resumeSubHeadingListStart
+
+*      \resumeProjectHeading
+
+*          {\textbf{Bridge - Professional player and teacher}}
+
+*          {01.03.2018Â -Â 01.11.2018}
+Missing character: There is no Â in font cmti10!
+Missing character: There is no   in font cmti10!
+Missing character: There is no Â in font cmti10!
+Missing character: There is no   in font cmti10!
+
+*          \resumeItemListStart
+
+Overfull \hbox (124.66617pt too wide) detected at line 0
+[][]  
+ []
+
+
+*            \resumeItem{I've been playing bridge for the U21 and U26 Italian n
+ational teams since I was 13 years old. In August 2015 we won the world junior 
+BAM teams championship in Opatija, Croatia. I also held a beginner bridge cours
+e in 2018 at ETH together with Gianluca Bergami, which was attended by around 2
+5 international ETH students.}
+
+*          \resumeItemListEnd
+
+*      \resumeProjectHeading
+
+*          {\textbf{Scholarships - Winner of MIUR Scholarship in 2014, 2015 and
+ 2016}}{01.01.2014Â -Â 01.01.2016}
+Missing character: There is no Â in font cmti10!
+Missing character: There is no   in font cmti10!
+Missing character: There is no Â in font cmti10!
+Missing character: There is no   in font cmti10!
+
+*          \resumeItemListStart
+
+Overfull \hbox (124.66617pt too wide) detected at line 0
+[][]  
+ []
+
+
+*            \resumeItem{Financial contribution issued in 2014, 2015 and 2016 b
+y the Italian Ministry of Education to 1000 italian students studying abroad.}
+
+*          \resumeItemListEnd
+
+*    \resumeSubHeadingListEnd
+
+*
+(Please type a command or say `\end')
+*%
+
+*%\section{Languages}
+
+*%\resumeSubHeadingListStart
+
+*% \begin{itemize}
+
+*%    \small{
+
+*%        \item{\textbf{Italian}: native}
+
+*%        \item{\textbf{Romanian}: native}
+
+*%        \item{\textbf{English}: fluent}
+
+*%        \item{\textbf{German}: conversational}
+
+*%        \item{\textbf{French}: conversational}
+
+*%         }
+
+*% \end{itemize}
+
+*% \resumeSubHeadingListEnd
+
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*\section{Languages}
+
+*    \resumeSubHeadingListStart
+
+*      \resumeProjectHeading
+
+*          {\textbf{Italian}}
+
+*          {Native}
+
+*      \resumeProjectHeading
+
+*          {\textbf{Romanian}}
+
+*          {Native}
+
+Overfull \hbox (124.66617pt too wide) detected at line 0
+[][]  
+ []
+
+
+*      \resumeProjectHeading
+
+*          {\textbf{English}}
+
+*          {Fluent}
+
+Overfull \hbox (124.66617pt too wide) detected at line 0
+[][]  
+ []
+
+
+*      \resumeProjectHeading
+
+*          {\textbf{German}}
+
+*          {Conversational}
+
+Overfull \hbox (124.66617pt too wide) detected at line 0
+[][]  
+ []
+
+
+*      \resumeProjectHeading
+
+*          {\textbf{French}}
+
+*          {Conversational}
+
+Overfull \hbox (124.66617pt too wide) detected at line 0
+[][]  
+ []
+
+
+*    \resumeSubHeadingListEnd
+
+Overfull \hbox (124.66617pt too wide) detected at line 0
+[][]  
+ []
+
+
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*\section{IT}
+
+*    \resumeSubHeadingListStart
+
+*      \resumeProjectHeading
+
+*          {\textbf{Python}}
+
+*          {Advanced}
+
+*          \resumeItemListStart
+
+Overfull \hbox (124.66617pt too wide) detected at line 0
+[][]  
+ []
+
+
+*            \resumeItem{I spent the last 5 years coding mainly in Python, usin
+g most of the machine learning and deep learning libraries available. I am prof
+icient with TensorFlow, PyTorch, Keras, OpenCV, Scikit-learn, NLTK.}
+
+*          \resumeItemListEnd
+
+*      \resumeProjectHeading
+
+*          {\textbf{Latex}}
+
+*          {Advanced}
+
+*          \resumeItemListStart
+
+Overfull \hbox (124.66617pt too wide) detected at line 0
+[][]  
+ []
+
+
+*            \resumeItem{I have used Latex to write all my projects, thesis and
+ CV.}
+
+*          \resumeItemListEnd
+
+*      \resumeProjectHeading
+
+*          {\textbf{PowerBI, Qlik}}
+
+*          {Advanced}
+
+*          \resumeItemListStart
+
+Overfull \hbox (124.66617pt too wide) detected at line 0
+[][]  
+ []
+
+
+*            \resumeItem{While I worked for Takeda, I was the main reference pe
+rson in Zurich for the development and deployment of PowerBI and Qlik dashboard
+s.}
+
+*          \resumeItemListEnd
+
+*      \resumeProjectHeading
+
+*          {\textbf{Javascript}}
+
+*          {Intermediate}
+
+*          \resumeItemListStart
+
+Overfull \hbox (124.66617pt too wide) detected at line 0
+[][]  
+ []
+
+
+*            \resumeItem{I have developed websites and worked on web based proj
+ects which made an intense use of JavaScript and PHP. I have used popular libra
+ries like Cubism.js and Angular.js.}
+
+*          \resumeItemListEnd
+
+*      \resumeProjectHeading
+
+*          {\textbf{HTML/CSS}}
+
+*          {Intermediate}
+
+*          \resumeItemListStart
+
+Overfull \hbox (124.66617pt too wide) detected at line 0
+[][]  
+ []
+
+
+*            \resumeItem{Please see above description, HTML and CSS were always
+ the foundation of any web based application or website.}
+
+*          \resumeItemListEnd
+
+*      \resumeProjectHeading
+
+*          {\textbf{Office Tools}}
+
+*          {Intermediate}
+
+*          \resumeItemListStart
+
+Overfull \hbox (124.66617pt too wide) detected at line 0
+[][]  
+ []
+
+
+*            \resumeItem{I have leveraged the Office Tools within my two years 
+at Takeda for regular presentations, lookup tables, fast data analysis and repo
+rts.}
+
+*          \resumeItemListEnd
+
+*      \resumeProjectHeading
+
+*          {\textbf{R}}
+
+*          {Intermediate}
+
+*          \resumeItemListStart
+
+Overfull \hbox (124.66617pt too wide) detected at line 0
+[][]  
+ []
+
+
+*            \resumeItem{I have used R for EDA and machine learning for my bach
+elor's thesis and while working at Takeda. Despite my personal preference for P
+ython, I often wrote scripts in R to make use of powerful packages and fast tim
+e series operations.}
+
+*          \resumeItemListEnd
+[2]
+*      \resumeProjectHeading
+
+*          {\textbf{GitGNU/Linux}}
+
+*          {Intermediate}
+
+*          \resumeItemListStart
+
+Overfull \hbox (124.66617pt too wide) detected at line 0
+[][]  
+ []
+
+
+*            \resumeItem{I used to work on a Linux machine during my bachelor s
+tudies and have always used the terminal to access cloud resources.}
+
+*          \resumeItemListEnd
+
+*      \resumeProjectHeading
+
+*          {\textbf{C++}}
+
+*          {Intermediate}
+
+*          \resumeItemListStart
+
+Overfull \hbox (124.66617pt too wide) detected at line 0
+[][]  
+ []
+
+
+*            \resumeItem{I coded in C++ for most of my bachelor projects and ex
+ams, I have a very solid understanding of the language, data structures and syn
+tax. What I am missing is some recent practice and updates on the latest develo
+pments.}
+
+*          \resumeItemListEnd
+
+*      \resumeProjectHeading
+
+*          {\textbf{SQL}}
+
+*          {Intermediate}
+
+*          \resumeItemListStart
+
+Overfull \hbox (124.66617pt too wide) detected at line 0
+[][]  
+ []
+
+
+*            \resumeItem{The SQL class I had allowed me to gain a deep understa
+nding of the language and the exam was extremely challenging, requiring to writ
+e complex queries and optimize their speed. I then used SQL for database access
+ while working on personal and job projects.}
+
+*          \resumeItemListEnd
+
+*      \resumeProjectHeading
+
+*          {\textbf{Java}}
+
+*          {Beginner}
+
+*          \resumeItemListStart
+
+Overfull \hbox (124.66617pt too wide) detected at line 0
+[][]  
+ []
+
+
+*            \resumeItem{I wrote a full application in Java, a game which tests
+ your verbal memory and saves the scores of all the participants.}
+
+*          \resumeItemListEnd
+
+*      \resumeProjectHeading
+
+*          {\textbf{C}}
+
+*          {Beginner}
+
+*          \resumeItemListStart
+
+Overfull \hbox (124.66617pt too wide) detected at line 0
+[][]  
+ []
+
+
+*            \resumeItem{I wrote another full project in C, a terminal client-s
+erver application which allows two players to play Connect4 while connected to 
+the same LAN.}
+
+*          \resumeItemListEnd
+
+*    \resumeSubHeadingListEnd
+
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*\section{THINGS ABOUT ME}
+
+*    \resumeSubHeadingListStart
+
+*      \resumeProjectHeading
+
+*          {\textbf{Hobbies}}
+
+*          { }
+
+*          \resumeItemListStart
+
+Overfull \hbox (124.66617pt too wide) detected at line 0
+[][]  
+ []
+
+
+*            \resumeItem{I regularly play tennis and train in a kickboxing gym,
+ during summer I windsurf in Sardinia or on the Garda Lake.}
+
+*          \resumeItemListEnd
+
+*      \resumeProjectHeading
+
+*          {\textbf{Skills}}
+
+*          { }
+
+*          \resumeItemListStart
+
+Overfull \hbox (124.66617pt too wide) detected at line 0
+[][]  
+ []
+
+
+*            \resumeItem{I believe my best asset is the ability to learn anythi
+ng in a short amount of time. I am a very curious person and I always need to u
+nderstand a concept before being able to make use of it.}
+
+*          \resumeItemListEnd
+
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*    \resumeSubHeadingListEnd
+
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*%-------------------------------------------
+
+*\end{document}
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 0.
+[3]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 0.
+ (/tmp/tmp5z_49sn7/file.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 0.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 0.
+Package rerunfilecheck Info: File `file.out' has not changed.
+(rerunfilecheck)             Checksum: <no file>.
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 0.
+ 
+Here is how much of TeX's memory you used:
+ 6750 strings out of 494923
+ 98832 string characters out of 6180741
+ 196540 words of memory out of 5000000
+ 9993 multiletter control sequences out of 15000+600000
+ 9232 words of font info for 36 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 27i,11n,43p,588b,613s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmti10.pfb>
+Output written on /tmp/tmp5z_49sn7/file.pdf (3 pages, 116939 bytes).
+PDF statistics:
+ 66 PDF objects out of 1000 (max. 8388607)
+ 46 compressed objects within 1 object stream
+ 12 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+
